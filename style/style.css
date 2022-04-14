@@ -77,15 +77,11 @@ img {
   display: flex;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   align-items: center;
 }
 
-.site-connection {
-  display: flex;
-  align-items: center;
-}
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -104,8 +100,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-1::after,
-.link-2:hover::after {
+.nav__link--current::after,
+.nav__link:hover::after {
   position: absolute;
   bottom: -33px;
 
@@ -116,16 +112,16 @@ img {
   border-radius: 2px;
   display: block;
 }
-.nav-item {
+.nav__item{
   margin-right: 50px;
   padding-bottom: 32px;
   padding-top: 32px;
 }
-.link-1 {
+.nav__link--current{
   color: var(--hover-logo-btn-color);
 }
 
-.nav-item:last-child {
+.nav__item:last-child {
   margin: 0;
 }
 
@@ -134,7 +130,7 @@ img {
   color: var(--hover-logo-btn-color);
 }
 
-.con {
+.contacts {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -145,18 +141,15 @@ img {
   align-items: center;
 }
 
-.mail-svg {
+.header__mail,
+.header__tel  {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.tel-svg {
-  fill: currentColor;
-  margin-right: 10px;
-}
 
 /* Main section */
-.main-section {
+.main__section {
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -170,7 +163,7 @@ img {
   background-size: cover;
   background-position: center;
 }
-.main-title {
+.main__title {
   width: 696px;
   margin: auto;
 
@@ -186,7 +179,7 @@ img {
   text-transform: uppercase;
 }
 
-.main-button {
+.main__button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -253,13 +246,13 @@ img {
   color: var(--hover-logo-btn-color);
 }
 
-/* Наши преимущества */
+/* наші переваги */
 
-.adva-list {
+.advantage__list{
   display: flex;
   list-style-type: none;
 }
-.adva-title {
+.advantage__title {
   font-weight: bold;
   line-height: 1.14;
   margin-bottom: 10px;
@@ -268,10 +261,10 @@ img {
   text-transform: uppercase;
   font-size: 14px;
 }
-.adva-item {
+.advantage__item{
   margin-right: 30px;
 }
-.adva-svg {
+.advantage__image{
   height: 120px;
   align-items: center;
   margin-bottom: 30px;
@@ -280,15 +273,15 @@ img {
   background-color: var(--btn-portfolio);
 }
 
-.adv-svg {
+.advantage__svg{
   width: 70px;
   height: 70px;
 }
 
-.adva-item :last-child {
+.advantage__item:last-child {
   margin: 0;
 }
-.adva-text {
+.advantage__text {
   width: 270px;
   height: 75px;
 
