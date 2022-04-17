@@ -1,0 +1,24 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.17;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.web {
+    color: var(--hover-logo-btn-color);
+}
+
+.logo-first {
+    display: flex;
+    margin-right: 93px;
+    padding-top: 24px;
+}
+.log--secondary {
+    margin-bottom: 20px;
+    display: block;
+
+    color: var(--secondary-color);
+}

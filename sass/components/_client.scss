@@ -1,0 +1,37 @@
+.client__list {
+    display: flex;
+    justify-content: center;
+}
+
+.client__item {
+    margin-right: 30px;
+}
+
+.client__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    align-items: center;
+    justify-content: center;
+    fill: var(--svg-icon-color);
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client__link:hover {
+    border-color: var(--hover-logo-btn-color);
+
+    fill: var(--hover-logo-btn-color);
+}
+
+.client__link:focus {
+    border-color: var(--hover-logo-btn-color);
+
+    fill: var(--hover-logo-btn-color);
+}
