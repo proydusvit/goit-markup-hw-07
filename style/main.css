@@ -121,7 +121,7 @@ img {
   padding: 0 15px;
 }
 
-.container-header {
+.container--header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +130,7 @@ img {
           justify-content: space-between;
 }
 
-.footer__link--container {
+.container--footer__link {
   margin-right: 83px;
 }
 
