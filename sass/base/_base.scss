@@ -43,3 +43,13 @@ img {
     font-size: 36px;
     line-height: 1.166;
 }
+.contacts {
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--maint-text-color);
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

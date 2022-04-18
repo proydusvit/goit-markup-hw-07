@@ -5,20 +5,22 @@
     line-height: 1.17;
     color: var(--main-color);
     text-decoration: none;
-}
 
-.web {
-    color: var(--hover-logo-btn-color);
-}
 
-.logo-first {
+
+
+&--first {
     display: flex;
     margin-right: 93px;
     padding-top: 24px;
 }
-.log--secondary {
+&--secondary {
     margin-bottom: 20px;
     display: block;
 
     color: var(--secondary-color);
+}
+}
+.web {
+    color: var(--hover-logo-btn-color);
 }

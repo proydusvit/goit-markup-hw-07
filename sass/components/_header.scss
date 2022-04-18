@@ -1,19 +1,25 @@
 .header {
     border-bottom: 1px solid #ececec;
+
+&__mail,
+&__tel {
+    fill: currentColor;
+    margin-right: 10px;
+}
 }
 
 .nav {
     display: flex;
-}
 
-.nav__list {
+
+&__list {
     display: flex;
     align-items: center;
 }
 
 
-.nav__link--current::after,
-.nav__link:hover::after {
+&__link--current::after,
+&__link:hover::after {
     position: absolute;
     bottom: -33px;
 
@@ -25,29 +31,14 @@
     display: block;
 }
 
-.nav__item {
+&__item {
     margin-right: 50px;
     padding-bottom: 32px;
     padding-top: 32px;
 }
 
-.nav__link--current {
+&__link--current {
     color: var(--hover-logo-btn-color);
 }
 
-.contacts {
-    font-weight: 500;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--maint-text-color);
-
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.header__mail,
-.header__tel {
-    fill: currentColor;
-    margin-right: 10px;
 }

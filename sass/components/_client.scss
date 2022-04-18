@@ -1,13 +1,15 @@
-.client__list {
+.client{
+
+&__list {
     display: flex;
     justify-content: center;
 }
 
-.client__item {
+&__item {
     margin-right: 30px;
 }
 
-.client__link {
+&__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -24,14 +26,15 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client__link:hover {
+&__link:hover {
     border-color: var(--hover-logo-btn-color);
 
     fill: var(--hover-logo-btn-color);
 }
 
-.client__link:focus {
+&__link:focus {
     border-color: var(--hover-logo-btn-color);
 
     fill: var(--hover-logo-btn-color);
+}
 }

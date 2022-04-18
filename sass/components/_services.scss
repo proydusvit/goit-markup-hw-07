@@ -1,8 +1,8 @@
-.services__section {
+.services {
     padding-top: 0;
-}
 
-.services__title {
+
+&__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -12,19 +12,19 @@
     line-height: 1.16;
 }
 
-.services__list {
+&__list {
     display: flex;
 }
 
-.services__item {
+&__item {
     margin-right: 30px;
 }
 
-.services__container {
+&__container {
     position: relative;
 }
 
-.services__container>.services__text {
+&__container>&__text {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -40,4 +40,5 @@
     text-transform: uppercase;
     color: var(--main-background-color);
     text-align: center;
+}
 }

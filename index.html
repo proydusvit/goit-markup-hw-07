@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style/main.css">
+<link rel="stylesheet" href="sass/main.css">
 </head>
 <body>
    
@@ -21,7 +21,7 @@
         
         <nav class="nav">
           
-         <a  class="logo logo-first" href="">
+         <a  class="logo logo--first" href="">
            <span class="web">Web</span>Studio
           </a>
 
@@ -63,7 +63,7 @@
         </section>
         
 <!-- наші переваги -->
-        <section class="section advantage__section">
+        <section class="section advantage">
             <div class="container">
             <h2 hidden>Наші переваги</h2>
             <ul class="advantage__list">
@@ -109,7 +109,7 @@
             </div>
      </section>
  <!--чим ми займаємось  -->
-      <section class="section services__section">
+      <section class="section services">
         <div class="container">
             <h2 class="services__title">Чим ми займаємося</h2>
             <ul class="services__list">
@@ -135,7 +135,7 @@
 </div>
         </section>
 <!-- наша команда -->
-        <section class="section team__section">
+        <section class="section team">
             <div class="container">
             <h2 class="title">Наша команда</h2>
          <ul class="team__list">
@@ -280,7 +280,7 @@
             </div>
         </section>
         <!-- постійні клієнти -->
-        <section class="section">
+        <section class="section client">
             <h2 class="title">Постійні Клієнти</h2>
             <ul class="client__list">
                 <li class="client__item">
@@ -335,7 +335,7 @@
     <footer class="footer">
         <div class="container container__footer">
             <div>
-        <a class="logo log--secondary" href="">
+        <a class="logo logo--secondary" href="">
 
         <span class="web">Web</span>Studio
         </a>
@@ -415,41 +415,41 @@
             <form>
                 
                     <p class="modal__text">Залишіть свої дані, ми вам передзвонимо</p>
-              <label class="label__modal">
+              <label class="modal__label">
                    Ім'я
-                    <input class="input__modal" type="text" name="name">
-                        <svg class="img__modal" width="12px" height="12px">
+                    <input class="modal__input" type="text" name="name">
+                        <svg class="modal__img" width="12px" height="12px">
                             <use href="./images/sprite/symbol-defs.svg#name"></use>
                         </svg>
                     
                 </label>
                 
                 
-                <label class="label__modal">
+                <label class="modal__label">
                     Телефон
-                    <input  class="input__modal" type="text" name="telephone">
-                    <svg class="img__modal" width="13px" height="13px">
+                    <input  class="modal__input" type="text" name="telephone">
+                    <svg class="modal__img" width="13px" height="13px">
                         <use href="./images/sprite/symbol-defs.svg#tel"></use>
                     </svg>
                 </label>
-                <label class="label__modal">
+                <label class="modal__label">
                     Пошта
-                    <input class="input__modal" type="text" name="mail">
-                    <svg class="img__modal" width="15px" height="12px">
+                    <input class="modal__input" type="text" name="mail">
+                    <svg class="modal__img" width="15px" height="12px">
                         <use href="./images/sprite/symbol-defs.svg#message"></use>
                         </svg>
                     
                 </label>
-                <label class="label__modal">
+                <label class="modal__label">
                     Коментар
-                    <textarea class="textarea__modal" name="Coment" rows="7" placeholder="Введіть текст"></textarea>
+                    <textarea class="modal__textarea" name="Coment" rows="7" placeholder="Введіть текст"></textarea>
                 </label>
-                <label class="label--checkbox__modal">
+                <label class="modal__label--checkbox">
               
-                    <input class="checkbox__modal" type="checkbox" name="Agreement conditions">
-                    <span class="checkbox__span"> </span>
+                    <input class="modal__checkbox" type="checkbox" name="Agreement conditions">
+                    <span class="modal__checkbox--span"> </span>
                    Погоджуюся з розсилкою та приймаю 
-                   <a href="" class="link__modal">Умови договору</a>
+                   <a href="" class="modal__link">Умови договору</a>
                     
                    </label>
         

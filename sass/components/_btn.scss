@@ -13,12 +13,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.modal__btn {
-    display: flex;
-    padding: 10px 55px;
-    margin-top: 20px;
-    margin-left: 121px;
-}
+
 // close btn
 .modal__button {
     position: absolute;
@@ -37,11 +32,11 @@
 
     display: flex;
     align-items: center;
-}
-.modal__button:hover {
-    color: var(--hover-logo-btn-color);
-}
 
-.modal__button:focus {
+&:hover {
     color: var(--hover-logo-btn-color);
+}
+&:focus {
+    color: var(--hover-logo-btn-color);
+}
 }
