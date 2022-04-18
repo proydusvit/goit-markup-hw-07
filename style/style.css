@@ -87,7 +87,18 @@ img {
   justify-content: space-between;
 }
 
- 
+.link {
+  position: relative;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--main-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: block;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .nav__link--current::after,
 .nav__link:hover::after {
@@ -325,7 +336,7 @@ img {
 .team__section {
   background-color: var(--btn-portfolio);
 }
-.team__title {
+.title {
   text-align: center;
   margin-bottom: 50px;
 
@@ -482,9 +493,9 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--secondary-color);
 }
-/* .fot-link {
+.fot-link {
   display: flex;
-} */
+}
 .footer__link--social {
   color: var(--secondary-color);
   font-weight: bold;
@@ -636,7 +647,7 @@ img {
   transform: translateY(0);
 }
   /* < !-- футер розсилку --> */
-.footer__input{
+.footer__input {
   width: 358px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -647,7 +658,7 @@ img {
 
   margin-right: 12px;
 }
-.footer__button--telegrm{
+.footer__button--telegrm {
   width: 200px;
   display: flex;
   flex-direction: row-reverse;
@@ -663,8 +674,9 @@ img {
   border: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
 }
-
+/* форма футер */
 .footer__form {
   display: flex;
 }
@@ -739,7 +751,7 @@ img {
   text-decoration: underline;
   margin-left: 4px;
 }
-.modal__btn {
+.moddal__btn {
   display: flex;
   padding: 10px 55px;
   margin-top: 20px;

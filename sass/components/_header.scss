@@ -11,12 +11,6 @@
     align-items: center;
 }
 
-.container-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 .nav__link--current::after,
 .nav__link:hover::after {
@@ -38,12 +32,6 @@
 }
 
 .nav__link--current {
-    color: var(--hover-logo-btn-color);
-}
-
-
-.link:hover,
-.link:focus {
     color: var(--hover-logo-btn-color);
 }
 
